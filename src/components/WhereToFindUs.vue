@@ -32,14 +32,14 @@
         .map {
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             .map-info {
                 padding: 1rem;
+                flex-grow: 1;
             }
             iframe {
                 height: 300px;
-                width: 100%;
                 flex-grow: 1;
-                flex-basis: 60%;
             }
         }
     }

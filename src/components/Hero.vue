@@ -1,16 +1,16 @@
 <template>
     <header class="hero">
-    <g-image src="~/assets/logotype.svg" alt="Logo Parada d9" />
+    <g-image width="280" src="~/assets/logotype.svg" alt="Logo Parada d9" />
     <h1 class="headline">A taste of Mallorca</h1>  
     <a href="#wheretofindus" class="cta">
       Where to find us
     </a>
     <div class="images-wrapper">
-      <g-image src="~/assets/img/1.png" />
-      <g-image src="~/assets/img/2.png" />
-      <g-image src="~/assets/img/3.png" />
-      <g-image src="~/assets/img/4.png" />
-      <g-image src="~/assets/img/5.png" />
+      <g-image width="210" height="210" quality="100" src="~/assets/img/1.png" alt="Foto de comida" />
+      <g-image width="210" height="210" quality="100" src="~/assets/img/2.png" alt="Foto de comida" />
+      <g-image width="210" height="210" quality="100" src="~/assets/img/3.png" alt="Foto de comida" />
+      <g-image width="210" height="210" quality="100" src="~/assets/img/4.png" alt="Foto de comida" />
+      <g-image width="210" height="210" quality="100" src="~/assets/img/5.png" alt="Foto de comida" />
     </div>
     </header> 
 </template>
@@ -26,9 +26,6 @@ export default {
   justify-content: center;
   align-items: center;
   padding-top: 4rem;
-  img {
-    max-width: 300px;
-  }
   .headline {
     font-weight: lighter;
     margin: 0;
@@ -58,7 +55,6 @@ export default {
       margin: 1rem;
       border: solid 1px #d4d4d4;
       transition: .1s;
-      max-width: 160px;
       box-shadow: 0 4px 12px #eaeaea;
       &:hover {
         transform: scale(1.1);
