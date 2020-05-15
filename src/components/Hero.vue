@@ -1,17 +1,20 @@
 <template>
     <header class="hero">
-    <g-image width="280" src="~/assets/logotype.svg" alt="Logo Parada d9" />
-    <h1 class="headline">A taste of Mallorca</h1>  
-    <a href="#wheretofindus" class="cta">
-      Where to find us
-    </a>
-    <div class="images-wrapper">
-      <g-image width="210" height="210" quality="100" src="~/assets/img/1.png" alt="Foto de comida" />
-      <g-image width="210" height="210" quality="100" src="~/assets/img/2.png" alt="Foto de comida" />
-      <g-image width="210" height="210" quality="100" src="~/assets/img/3.png" alt="Foto de comida" />
-      <g-image width="210" height="210" quality="100" src="~/assets/img/4.png" alt="Foto de comida" />
-      <g-image width="210" height="210" quality="100" src="~/assets/img/5.png" alt="Foto de comida" />
-    </div>
+      <div class="images">
+        <g-image class="km0" width="100" src="~/assets/km0.svg" alt="Km0" />
+        <g-image width="280" src="~/assets/logotype.svg" alt="Logo Parada d9" />
+      </div>
+      <h1 class="headline">A taste of Mallorca</h1>
+      <!-- <a href="#wheretofindus" class="cta">
+        Where to find us
+      </a> -->
+      <div class="images-wrapper">
+        <g-image width="160" quality="100" src="~/assets/img/1.png" alt="Foto de comida" />
+        <g-image width="160" quality="100" src="~/assets/img/2.png" alt="Foto de comida" />
+        <g-image width="160" quality="100" src="~/assets/img/3.png" alt="Foto de comida" />
+        <g-image width="160" quality="100" src="~/assets/img/4.png" alt="Foto de comida" />
+        <g-image width="160" quality="100" src="~/assets/img/5.png" alt="Foto de comida" />
+      </div>
     </header> 
 </template>
 <script>
@@ -25,25 +28,37 @@ export default {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
+  min-height: 90vh;
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .km0 {
+      margin-bottom: 1.5rem;
+      background: #0D3E87;
+      border-radius: 50%;
+      padding: .25rem;
+    }
+  }
   .headline {
     font-weight: lighter;
     margin: 0;
   }
   .cta {
     padding: .8rem 2rem;
-    border-radius: 8px;
-    color: #0D3E87;
+    color: #fff;
+    background-color: #0D3E87;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.4rem;
-    border: solid 2px #0D3E87;
+    font-size: 1.2rem;
     margin-top: 4rem;
     transition: .1s;
+    border: solid 2px #0D3E87;
     &:hover {
       transition: .1s;
-      background-color: #0D3E87;
-      color: white;
+      background-color: rgb(6, 41, 94);
+      color: #fff;
     }
   }
   .images-wrapper {

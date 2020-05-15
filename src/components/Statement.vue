@@ -1,9 +1,9 @@
 <template>
 <div class="statement">
-    <h2>This is what we offer</h2>
-    <p>1. <span>Local,</span> high quality ingredients</p>
-    <p>2. <span>Homemade,</span> flavorfull Mallorcan dishes</p>
-    <p>3. <span>Whatever you want.</span> If you bring us ingredients from the market we will cook them for you however you want</p>
+    <h2>What we offer</h2>
+    <p>🥩 <span>Local,</span> high quality ingredients</p>
+    <p>👩🏼‍🍳 <span>Homemade,</span> flavorfull Mallorcan dishes</p>
+    <p>🍳 </span></span> <span>Whatever you want.</span> If you bring us ingredients from the market we will cook them for you however you want</p>
 </div>
 </template>
 <script>

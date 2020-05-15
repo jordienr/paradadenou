@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <h2>Come and join us 💖</h2>
+        <h2>Come and join us</h2>
         <p>In Santa Catalina Market</p>
         <br>
         <p>Find us on Instagram!</p>

@@ -3,7 +3,7 @@
   <div class="layout">
     <Hero />
   </div>
-  <g-image class="caracol" v-bind:style="{ left: caracolPosition + 'px' }" src="~/assets/logo.svg"></g-image>
+  <g-image class="caracol" width="80" v-bind:style="{ left: caracolPosition + 'px' }" src="~/assets/logo.svg"></g-image>
   <div class="fw-layout" id="wheretofindus">
     <WhereToFindUs />
   </div>
@@ -58,7 +58,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .layout {
-  max-width: 940px;
+  max-width: 1100px;
   margin: auto;
 }
 .caracol {
