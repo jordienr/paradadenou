@@ -70,7 +70,6 @@ export default {
       margin: 1rem;
       border: solid 1px #d4d4d4;
       transition: .1s;
-      box-shadow: 0 4px 12px #eaeaea;
       &:hover {
         transform: scale(1.1);
         transition: .1s;
