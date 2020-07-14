@@ -4,7 +4,7 @@
         <p>In Santa Catalina Market</p>
         <br>
         <p>Find us on Instagram!</p>
-        <a href="/">
+        <a href="https://www.instagram.com/parada.d9/">
             <g-image src="~/assets/instagram.svg"></g-image>
         </a>
     </footer>

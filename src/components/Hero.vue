@@ -5,7 +5,7 @@
         <g-image width="280" src="~/assets/logotype.svg" alt="Logo Parada d9" />
       </div>
       <h1 class="headline">A taste of Mallorca</h1>
-      <a href="/menu" class="cta">
+      <a href="/carta" class="cta">
         See our menu
       </a>
       <div class="images-wrapper">

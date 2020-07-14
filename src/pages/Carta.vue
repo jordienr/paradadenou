@@ -1,7 +1,7 @@
 <template>
     <div class="menu">
-        <h1>Parada d'9 Menu</h1>
-        <h2 v-if="loading">Loading...</h2>
+        <h1>Parada d'9 Carta</h1>
+        <h2 v-if="loading">Cargando...</h2>
         <div class="menu-container" v-for="(item, index) in menus" :key="index">
             <h3>{{item.title}}</h3>
             <div class="row">
@@ -59,9 +59,12 @@ export default {
             flex-grow: 1;
         }
         .item {
-            padding: .5rem;
+            padding: .25rem 1rem;
             &:first-of-type {
                 font-weight: bold;
+            }
+            &:nth-of-type(2n) {
+                background-color: rgb(235, 235, 235);
             }
         }
     }
