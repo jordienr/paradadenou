@@ -5,9 +5,9 @@
         <g-image width="280" src="~/assets/logotype.svg" alt="Logo Parada d9" />
       </div>
       <h1 class="headline">A taste of Mallorca</h1>
-      <!-- <a href="#wheretofindus" class="cta">
-        Where to find us
-      </a> -->
+      <a href="/menu" class="cta">
+        See our menu
+      </a>
       <div class="images-wrapper">
         <g-image width="160" quality="100" src="~/assets/img/1.png" alt="Foto de comida" />
         <g-image width="160" quality="100" src="~/assets/img/2.png" alt="Foto de comida" />
