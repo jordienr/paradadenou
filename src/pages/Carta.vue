@@ -60,6 +60,7 @@ export default {
         }
         .item {
             padding: .25rem 1rem;
+            min-height: 55px;
             &:first-of-type {
                 font-weight: bold;
             }
